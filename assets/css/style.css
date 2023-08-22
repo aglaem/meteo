@@ -15,7 +15,7 @@ h1 {
     text-align: center;
     font-family: 'choko';
     font-size: 3rem;
-    background: linear-gradient(to right, #F8ED8B 0%, #4087CE 50%, #F8ED8B 100%);
+    background: linear-gradient(to right, #F8ED8B 0%, #4087CE 50%, #fce23a 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
@@ -26,11 +26,76 @@ h1 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    margin: 3rem;
 }
 
 .card{
-    background-color: #4087CE;
-    width: 15rem;
-    height: 15rem;
+    display: flex;
+    border: 5px solid #0E4990;
+    width: 20rem;
+    height: 25rem;
     margin: 1rem;
+    border-radius: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: space-between;
+    flex-direction: column;
+}
+
+.bgimg{
+    position: absolute;
+    width: 19.5rem;
+    height: 24.5rem;
+    border-radius: 12px;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+.cardimg{
+    width: 5rem;
+    height: 5rem;
+}
+
+.component{
+    margin: auto;
+}
+
+.ul{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    background: #4087CE;
+    padding: 1rem;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }
